@@ -1,0 +1,49 @@
+.grid-container{
+    display: grid;
+    font-size: 30px;
+
+
+
+grid-template-areas:
+'header header header'
+'nav article aside'
+'footer footer footer';
+
+
+}
+.box1{
+    grid-area: header;
+    background-color: aquamarine;
+    height: 20vh;
+
+}
+.box2{
+    grid-area: nav;
+    background-color: blueviolet;
+    height: 60vh;
+    width: 20vw;
+    
+}
+.box3{
+    grid-area: article;
+    background-color: brown;
+     height: 60vh;
+     width: 60vw;
+}
+.box4{
+    grid-area: aside;
+    background-color: aqua;
+     height: 60vh;
+     width: 20vw;
+
+}
+.box5{
+    grid-area: footer;
+    background-color: burlywood;
+    height: 20vh;
+}
+
+
+.grid-item{
+    border: 1px solid black;
+}

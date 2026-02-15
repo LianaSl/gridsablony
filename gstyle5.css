@@ -1,0 +1,57 @@
+.grid-container{
+    display: grid;
+    font-size: 30px;
+
+
+
+grid-template-areas:
+'nav header header'
+'nav article aside'
+'nav footer footer'
+
+
+}
+.box1{
+    grid-area: nav;
+    background-color: aquamarine;
+    height: 100vh;
+    width: 20vw;
+
+    
+
+}.box2{
+    grid-area:header;
+    background-color: blueviolet;
+    height: 25vh;
+    width: 80vw;
+    
+    
+}
+.box3{
+    grid-area: article;
+    background-color: brown;
+    height: 50vh;
+    width: 60vw;
+
+  
+}
+.box4{
+    grid-area: footer;
+    background-color: aqua;
+    width: 80vw;
+    height: 25vh;
+    
+    
+
+}
+.box5{
+    grid-area: aside;
+    background-color: rgb(238, 255, 0);
+    width: 20dvw;
+   
+}
+
+
+.grid-item{
+    border: 1px solid black;
+}
